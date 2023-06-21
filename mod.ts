@@ -42,6 +42,7 @@ const openerCandidates: Record<string, Opener[]> = {
     (path: string) => ["gnome-open", [path]],
     (path: string) => ["kde-open", [path]],
     (path: string) => ["exo-open", [path]],
+    (path: string) => ["wslview", [path]],
   ],
   darwin: [
     (path: string) => ["open", [path]],
