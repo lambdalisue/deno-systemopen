@@ -39,6 +39,7 @@ async function openWith(opener: Opener, path: string): Promise<boolean> {
 const openerCandidates: Record<string, Opener[]> = {
   linux: [
     (path: string) => ["xdg-open", [path]],
+    (path: string) => ["wslview", [path]],
     (path: string) => ["gnome-open", [path]],
     (path: string) => ["kde-open", [path]],
     (path: string) => ["exo-open", [path]],
