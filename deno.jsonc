@@ -1,4 +1,7 @@
 {
+  "name": "@lambdalisue/systemopen",
+  "version": "0.0.0",
+  "exports": "./mod.ts",
   "lock": false,
   "tasks": {
     "test": "deno test --unstable -A --parallel --doc",
